@@ -1,1 +1,2 @@
 # E-Commerce-Flex-Website
+Using CSS Flexbox to create a responsive grid layout for an e-commerce website. The grid layout includes multiple rows and columns of products of color paints with the ability to reorganize the layout on different screen sizes using media queries. 
