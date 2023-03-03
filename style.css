@@ -51,7 +51,6 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap:wrap;
-
 }
 
 .Items {
@@ -120,4 +119,75 @@ body {
 
 .Likes i {
     color: gold;
+}
+
+
+@media (min-width:1200px) {
+    .navTitle {
+        margin: 0.25em;
+        font-size:2.5em;
+    }
+
+    .navOptions li {
+        margin: 10px;
+        padding: 15px;
+        font-size: 2em;
+    }
+}
+
+@media (max-width:640px) {
+    .navTitle {
+        margin: 0.25em;
+        margin-top: center;
+        text-align: center;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    .navOptions {
+        width:40%;
+        display: flex;
+        padding: 10px;
+    }
+
+    .navOptions li {
+        font-size: 1em;
+    }
+    
+    .navBar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:480px) {
+    .ItemsRowsGrouping {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: left;
+    }
+}
+
+@media (max-width:300px) {
+    .navOptions ul {
+        margin: 5%;
+        border: 2px solid white;
+    }
+    
+    .navTitle {
+        background-color: #a9a9a9;
+    }
+
+    .navOptions {
+        background-color: #a9a9a9;
+    }
+
+    .navOptions li {
+        background-color: #a9a9a9;
+    }
+    
+    .navBar {
+        background-color: #a9a9a9;
+    }
 }
