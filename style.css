@@ -75,7 +75,7 @@ body {
 }
 
 .Items:hover .Choices {
-    display: block;
+    display: flex;
 }
 
 .Choices a {
@@ -84,4 +84,23 @@ body {
 
 .Choices a:hover {
     color: red;
+}
+
+.cartButton {
+    background: rgba(191, 164, 164, 0.559);
+    display: none;
+    cursor: pointer;
+}
+
+.Items:hover .cartButton {
+    display: block;
+}
+
+.cartButton button {
+    position: absolute;
+    cursor: pointer;
+}
+
+.cartButton button:hover {
+    background: grey;
 }
