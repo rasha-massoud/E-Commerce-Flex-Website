@@ -68,3 +68,20 @@ body {
     object-fit: cover;
     background-color: white;
 }
+
+.Choices {
+    margin-right: 10%;;
+    display: none;
+}
+
+.Items:hover .Choices {
+    display: block;
+}
+
+.Choices a {
+    position: absolute;
+}
+
+.Choices a:hover {
+    color: red;
+}
