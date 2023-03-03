@@ -43,3 +43,28 @@ body {
     background-color: rgba(119, 136, 153, 0.915);
     border-radius: 0px 50px;
 }
+
+.ItemsRowsGrouping {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+
+}
+
+.Items {
+    width: 280px;
+    overflow: hidden;
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+}
