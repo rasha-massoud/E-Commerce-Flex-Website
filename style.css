@@ -5,6 +5,8 @@ body {
 }
 
 .navBar{
+    padding-left: 2%;
+    padding-right: 2%;
     display:flex;            
     justify-content: space-between;
     align-items: center;
@@ -19,11 +21,8 @@ body {
 }
 
 .navOptions{
-    width:20%;
     height:100%;
     display: flex;
-    justify-content: space-around;
-    justify-items: center;
 }
 
 .navOptions ul{
